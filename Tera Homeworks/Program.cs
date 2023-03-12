@@ -44,9 +44,11 @@
         Console.WriteLine();
         //BMI ფორმულა  = weigth kg /height(2) meter
 
-        Console.WriteLine(weight / ((height/100) * 2 ));
+        Console.Write("Your BMI is:");
+        Console.WriteLine((weight) / ((height/100)*(height/100)));
+
 
     }
 
-   
+
 }
